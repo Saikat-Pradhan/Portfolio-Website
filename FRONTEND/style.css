@@ -8,7 +8,7 @@ body {
     background-color: #000;
 }
 /* Header Navbar Styles */
-.navbar {
+/* .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,7 +17,7 @@ body {
     width: 100%;
     background-image: linear-gradient(90deg, #045a42, #53C8B6, #173788);
     background-color: transparent;
-}
+} */
 .logo {
     padding: 0 5rem;
 }
@@ -44,11 +44,20 @@ body {
 .menu-list .menu-list-items {
     padding: 0.5rem 1rem;
 }
-
 @media screen and (min-width: 856px) and (max-width: 1024px) {
     .menu-list .menu-list-items {
         padding: 0.5rem 0.3rem;
     }
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(90deg, #045a42, #53C8B6, #173788);
+    background-color: transparent;
 }
 /* Main Hero Section Styles */
 .hero {
